@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    background-color: dodgerblue;
+    text-align: center;
+}
+.footer{
+ background-color: darkgray;
+ text-align: center;
+}
+.body {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+img{
+    border-radius: 50%;
+    border: 4px solid #ccc;
+    width: 100px;
+    height: 100px;   
+}
+.text{
+    padding-top: 50px;
+    padding-right: 50px;
+}
+.nav{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.nav>a{
+    margin:  15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.title{
+    padding-top: 20px;
+    color: aliceblue;
+}
